@@ -31,7 +31,7 @@ public class App {
 
         // 发送消息
         Msg msg = Msg.builder()
-                .textContent("如何实现滑动窗口算法，有哪些框架用到了滑动窗口算法，请详细说说")
+                .textContent("帮我整理一份Python语言入门学习资料，要求涵盖基础语法、元组、并发等知识，尽可能详细，给出例子，要让初学者能看懂，知识点要全面")
                 .build();
 
         Msg response = jarvis.call(msg).block();
